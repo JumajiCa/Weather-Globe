@@ -1,0 +1,101 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-button {
+    height: 2.5em;
+    width: 4.5em;
+    margin: 0.5em;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffa112;
+    box-shadow: 0 4px #0059a6 ;
+    color:#0059a6 ;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.search-button:hover {
+    background-color: #E0610E ;
+}
+.search-button:active{
+    background-color: #E0610E;
+    box-shadow: 0 2px #0059a6;
+    transform: translateY(2px);
+}
+
+.search-bar{
+border: none;
+outline: none;
+background-color: lightgray;
+border-radius: 22px;
+margin: 0.5em; 
+color: white;
+padding: 0.8em 1.2em;
+font-weight: 500;
+font-size: 100%;
+width: 30vw;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+
+}
+
+.location-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.weatherdescrip{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.icon{
+    height: 75px;
+    width: 75px;
+}
+
+.button {
+  text-align: center;
+}
